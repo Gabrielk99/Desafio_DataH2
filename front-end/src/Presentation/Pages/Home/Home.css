@@ -1,0 +1,81 @@
+.ctn-home{
+    width: 80%;
+    min-height: 100vh;
+    box-shadow: 0 0 5px rgba(0,0,0,0.5);
+    background-color: white;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    position: relative;
+    contain: content;
+    padding-bottom: 100px;
+}
+.title-home{
+    margin-top: 50px;
+    font-size: 2.5rem;
+    letter-spacing:10px;
+    z-index: 1;
+
+}
+.title-home span{
+    color:rgb(81, 129, 173)
+}
+.img-home{
+    height: auto;
+    position: absolute;
+    transform: rotate(90deg);
+    left:0;
+    top: 0;
+    bottom: 0;
+    z-index: 0;
+    display: flex;
+    align-self: flex-start;
+    height: 100%;
+    justify-self: flex-start; 
+}
+.img-home.right{
+    transform: rotate(-90deg);
+    right:0;
+    left: auto;
+    top: 0;
+    bottom: 0;
+    display: flex;
+    align-self: flex-end;
+    justify-self: flex-end; 
+}
+
+.desc-box-home{
+    width: 60%;
+    padding:10px 20px 10px 20px;
+    /* background-color: rgb(22, 58, 58); */
+    color: rgb(0, 0, 0);
+    /* border-left: 1px solid black; */
+    /* border-bottom: 1px solid black; */
+    line-height: 30px;
+    font-size: 1.1rem;
+    margin-top: 50px;
+    z-index: 1;
+    
+    box-shadow: -3px 3px 2px rgba(0,0,0,0.2);
+}
+
+.desc-box-home::first-letter{
+    font-size: 1.5rem;
+}
+.col-graphs{
+    margin-top: 100px;
+    z-index: 100;
+    display: flex;
+    flex-direction: column;
+}
+.dist-graphs{
+    padding: 0 8px 0 0px;
+    width:600px;
+    overflow-x:scroll;
+    display: flex;
+    flex-direction: row;
+}
+.desc-box-home span{
+    color:transparent
+}

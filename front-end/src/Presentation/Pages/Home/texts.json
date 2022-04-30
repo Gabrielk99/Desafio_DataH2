@@ -1,0 +1,4 @@
+{
+    "desc":"Bem vindos, nesta página você pode realizar o upload de uma planilha .csv, no qual represente uma matriz de dados númericos, a partir dos dados será possível realizar algumas análises como redução de dimensionalidade (variância explicada V.s número de componentes), distribuição entre outros. OBS: Matrizes com alta quantidade de colunas pode prejudicar a visualização da matriz de correlação e distribuição dos dados.",
+    "alert":"Obs: A conduta dos diretores do processo deixaram a desejar, seria melhor mais paixão e respeito pelos colegas."
+}
