@@ -4,9 +4,9 @@
   "description": "back-end to challenge dataH",
   "main": "./src/index.ts",
   "scripts": {
-    "dev": "ts-node src/index.ts",
-    "build": "tsc",
-    "start": "npm run build && node /dist/index.js"
+    "dev": "ts-node Application/src/index.ts",
+    "postinstall": "cd Application && tsc",
+    "start": "cd Application && node /dist/index.js"
   },
   "author": "Gabriel Xavier",
   "license": "ISC",

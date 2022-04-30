@@ -13,7 +13,7 @@ dotenv_1.default.config({
 });
 var Server = /** @class */ (function () {
     function Server() {
-        this.app = (0, express_1.default)();
+        this.app = express_1.default();
         this.router = new MasterRouter_1.default();
     }
     return Server;
@@ -25,6 +25,6 @@ server.app.use('/api', server.router.router);
 (function (port) {
     if (port === void 0) { port = process.env.PORT || 5000; }
     server.app.listen(port, function () {
-        console.log("to vivo na porta ".concat(port));
+        console.log("to vivo na porta " + port);
     });
 })();

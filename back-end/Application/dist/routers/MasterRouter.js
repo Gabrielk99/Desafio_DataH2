@@ -7,7 +7,7 @@ var express_1 = require("express");
 var DataRouter_1 = __importDefault(require("./Data/DataRouter"));
 var MasterRouter = /** @class */ (function () {
     function MasterRouter() {
-        this.masterRouter = (0, express_1.Router)();
+        this.masterRouter = express_1.Router();
         this.dataRouter = new DataRouter_1.default();
         this.configure();
     }

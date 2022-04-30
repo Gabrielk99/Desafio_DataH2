@@ -16,7 +16,7 @@ var storage = multer.diskStorage({ destination: function (req, file, cb) {
 var upload = multer({ storage: storage });
 var DataRouter = /** @class */ (function () {
     function DataRouter() {
-        this.data_router = (0, express_1.Router)();
+        this.data_router = express_1.Router();
         this.controller = new data_1.default();
         this.configure();
     }
