@@ -16,6 +16,11 @@ class Server {
 
 const server = new Server();
 
+server.app.use(express.static(__dirname.replace("dist","build")));
+server.app.get(/^(?!.api)/, (req, res) => {
+    res.sendFile(__dirname.replace('/dist',"/build/index.html"));
+});   
+
 server.app.use(bodyParser.json());
 server.app.use(cors());
 
