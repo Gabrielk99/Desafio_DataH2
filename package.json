@@ -6,7 +6,7 @@
   "scripts": {
     "dev": "ts-node ./src/index.ts",
     "start": "cd back-end/Application && node ./dist/index.js",
-    "postinstall": "cd front-end && npm i && npm run build --prod && cd ../back-end/Application && npm i && tsc && rm -rf build && cd ../../front-end && cp -r build ../back-end/Application"
+    "postinstall": "cd front-end && npm i && npm run build --prod && cd ../back-end/Application && npm i && tsc && rm -rf build && cd ../../front-end/ && cp -r build ../back-end/Application"
   },
   "author": "Gabriel Xavier",
   "license": "ISC",
