@@ -1,5 +1,5 @@
 {
-    "proxy": "http://localhost:25456/",
+    "proxy": "http://localhost:80 /",
     "dependencies": {
         "@testing-library/jest-dom": "^5.16.4",
         "@testing-library/react": "^13.1.1",

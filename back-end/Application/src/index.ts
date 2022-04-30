@@ -27,7 +27,7 @@ server.app.use(cors());
 server.app.use('/api',server.router.router);
 
 
-((port = process.env.PORT || 5000)=>{
+((port = process.env.PORT || 80)=>{
     server.app.listen(port,()=>{
         console.log(`to vivo na porta ${port}`)
     });
