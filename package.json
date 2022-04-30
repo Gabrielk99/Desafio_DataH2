@@ -5,8 +5,8 @@
   "main": "./src/index.ts",
   "scripts": {
     "dev": "ts-node Application/src/index.ts",
-    "postinstall": "cd Application && tsc",
-    "start": "cd Application && node /dist/index.js"
+    "postinstall": "cd back-end/Application && tsc",
+    "start": "cd back-end/Application && node /dist/index.js"
   },
   "author": "Gabriel Xavier",
   "license": "ISC",
