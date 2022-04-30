@@ -1,6 +1,5 @@
 {
-    "proxy": "https://backend-datah.herokuapp.com/",
-    "homepage": "http://Gabrielk99.github.io/Desafio_DataH2",
+    "proxy": "http://localhost:3001/",
     "dependencies": {
         "@testing-library/jest-dom": "^5.16.4",
         "@testing-library/react": "^13.1.1",
